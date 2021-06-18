@@ -287,6 +287,8 @@ add_definitions(-DHAVE_CONFIG_H)
 include_directories(${CMAKE_BINARY_DIR})
 
 include(cmake/StaticBuild.cmake)
+# Needed for static linking against FLTK (on Linux):
+set(FLTK_LIBRARIES ${FLTK_LIBRARIES} png dl)
 
 add_subdirectory(common)
 
