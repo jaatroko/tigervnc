@@ -68,6 +68,7 @@
 
 #include "PlatformPixelBuffer.h"
 
+#include <FL/x.H>
 #include <FL/fl_draw.H>
 #include <FL/fl_ask.H>
 

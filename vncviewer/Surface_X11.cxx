@@ -23,6 +23,8 @@
 
 #include <rdr/Exception.h>
 
+#include <cstdlib>
+
 #include "Surface.h"
 
 void Surface::clear(unsigned char r, unsigned char g, unsigned char b, unsigned char a)

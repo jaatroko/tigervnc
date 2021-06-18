@@ -29,6 +29,8 @@
 #include <rfb/LogWriter.h>
 #include <rdr/Exception.h>
 
+#include <cstdlib>
+
 #include "PlatformPixelBuffer.h"
 
 static rfb::LogWriter vlog("PlatformPixelBuffer");
